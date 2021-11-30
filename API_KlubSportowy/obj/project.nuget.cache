@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "o8E2fodc3gvXUNWJFzKO6K+aOcrEET78c0P+Mw8M23XmXaWVsCSyvhfGsIeJTwkkCbFnAhrOz56DTqQi/nH23A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\BI3GS0N\\source\\repos\\API_KlubSportowy\\API_KlubSportowy\\API_KlubSportowy.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\BI3GS0N\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\BI3GS0N\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\BI3GS0N\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\BI3GS0N\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\BI3GS0N\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\BI3GS0N\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
