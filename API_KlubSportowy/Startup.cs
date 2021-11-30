@@ -37,6 +37,7 @@ namespace API_KlubSportowy
             });
 
             services.AddScoped<IFizjoterapeuciRepository, FizjoterapeuciRepository>();
+            services.AddScoped<IKontraktyRepository, KontraktyRepository>();
 
             services.AddControllers();
             services.AddSwaggerGen(c =>

@@ -23,14 +23,13 @@ namespace API_KlubSportowy.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            IEnumerable<Fizjoterapeuci> fizjoterapeucis = fizjoterapeuciRepository.GetAll();
-            if (fizjoterapeucis.Any() == false)
+            IEnumerable<Fizjoterapeuci> fizjoterapeuci = fizjoterapeuciRepository.GetAll();
+            if (fizjoterapeuci.Any() == false)
             {
                 return NoContent();
             }
-            return Ok(fizjoterapeucis);
+            return Ok(fizjoterapeuci);
         }
-        // GET: api/Movie/5 
         [HttpGet("{FizjoterapeuciId}")]
         public IActionResult Get(int FizjoterapeuciId)
         {
@@ -40,7 +39,6 @@ namespace API_KlubSportowy.Controllers
 
             return Ok(fizjoterapeuci);
         }
-        // POST: api/Movie 
         [HttpPost]
         public IActionResult Post([FromBody] Fizjoterapeuci fizjoterapeuci)
         {
@@ -52,7 +50,6 @@ namespace API_KlubSportowy.Controllers
                                    new { FizjoterapeuciId = newFizjoterapeuci.IdFizjoterapeuta },
                                    newFizjoterapeuci);
         }
-        // PUT: api/Movie/5 
         [HttpPut]
         public IActionResult Put([FromBody] Fizjoterapeuci fizjoterapeuci)
         {
@@ -62,7 +59,6 @@ namespace API_KlubSportowy.Controllers
             var updatedFizjoterapeuci = fizjoterapeuciRepository.Put(fizjoterapeuci);
             return Ok(updatedFizjoterapeuci);
         }
-        // DELETE: api/Movie/5 
         [HttpDelete("{FizjoterapeuciId}")]
         public IActionResult Delete(int FizjoterapeuciId)
         {
@@ -73,5 +69,6 @@ namespace API_KlubSportowy.Controllers
 
             return Ok(deletedFizjoterapeuci);
         }
+ 
     }
 }
