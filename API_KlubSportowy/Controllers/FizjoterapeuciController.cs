@@ -30,6 +30,7 @@ namespace API_KlubSportowy.Controllers
             }
             return Ok(fizjoterapeuci);
         }
+
         [HttpGet("{FizjoterapeuciId}")]
         public IActionResult Get(int FizjoterapeuciId)
         {
@@ -39,6 +40,7 @@ namespace API_KlubSportowy.Controllers
 
             return Ok(fizjoterapeuci);
         }
+
         [HttpPost]
         public IActionResult Post([FromBody] Fizjoterapeuci fizjoterapeuci)
         {

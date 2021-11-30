@@ -38,6 +38,10 @@ namespace API_KlubSportowy
 
             services.AddScoped<IFizjoterapeuciRepository, FizjoterapeuciRepository>();
             services.AddScoped<IKontraktyRepository, KontraktyRepository>();
+            services.AddScoped<IKontuzjeRepository, KontuzjeRepository>();
+            services.AddScoped<ITrenerzyRepository, TrenerzyRepository>();
+            services.AddScoped<IZawodnicyRepository, ZawodnicyRepository>();
+            services.AddScoped<IZespolyRepository, ZespolyRepository>();
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
